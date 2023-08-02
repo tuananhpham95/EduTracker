@@ -55,7 +55,7 @@ const AddPostModal = () => {
                         </Form.Control>
                     </Form.Group>
                     <Form.Group>
-                        <Form.Control type='text' placeholder='Youtube Totorial URL' name='url' value={url}
+                        <Form.Control type='text' placeholder='URL' name='url' value={url}
                                       onChange={onChangeNewPostForm}>
                         </Form.Control>
                     </Form.Group>

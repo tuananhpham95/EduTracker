@@ -15,7 +15,7 @@ const authController = {
             if (user) {
                 return res
                     .status(400)
-                    .json({success: false, message: "Username aldready exists"});
+                    .json({success: false, message: "Username already exists"});
             }
             //create new user
             const newUser = await User.create({username, password: hashed});

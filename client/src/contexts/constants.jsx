@@ -1,4 +1,4 @@
-export const apiUrl = process.env.NODE_ENV !== 'production' ? 'http://localhost:3000/api' : 'soemdeplayedURL' // https://immense-woodland-39587-97d13230af30.herokuapp.com/
+export const apiUrl = process.env.NODE_ENV !== 'production' ? 'http://localhost:3000/api' : 'soemdeplayedURL'
 
 export const LOCAL_STORAGE_TOKEN_NAME = 'EduTracker'
 
